@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+* k{
+
+		box-sizing: border-box;
+		transition:all ease-in-out 250ms;
+	}
+body {	
+	margin: 0;
+	font-family: 'Lato',sans-serif;
+	text-align: center;
+	background-color: #00394d;
+
+}
+header{
+		position: absolute;
+		left: 0;
+		right: 0;
+}
+header nav{
+	background-color:#00001a; 
+}
+header img {
+	width: 18em;
+	padding-top: 1em;
+	padding-bottom:1em;
+	height: 4.5em;
+}
+header .join{
+	color: #FFFFFF;
+	padding-bottom: 2.3em;
+}
+header .form{
+	padding-left: 2em;
+	padding-right: 2em;
+	float: center;
+	width: 100%;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 1px ;
+    display: inline-block;
+    font-size: 1.5em;
+    border: none;
+    background: #f1f1f1;
+    
+
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+header .para{
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 1.5em;
+	padding-top: 1em;
+	padding-bottom: 1.5em;
+}
+
+header .button1 .bix{
+	font-size: 1.7em;
+	padding-top: 0.2em;
+	padding-bottom: 0.2em;
+	width: 95%;
+	color: #FFFFFF;
+	background-color: #00001a;
+	text-align: center;
+}
+header .para2
+{
+	font-size: 1.5em;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 0em;
+}
